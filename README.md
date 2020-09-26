@@ -44,4 +44,9 @@ The following confusion matrix was obtained by changing the hand gestures
 | **L**     | 0       | 2      | 5 | 1|
 | **Peace**     | 2| 0       | 1 | 5 |
 
+## Findings
+
+* As we are substracting through different scaling factors for matching the template,we can extract the area of the palm and scale the template accordingly to make the program run much faster.
+* As per our experiments, we were able to obtain better accuracy when the background was kept static.
+* Similar gestures like peace and palm were mistakenly recognized sometimes.
 
